@@ -1,0 +1,29 @@
+# Reader
+
+> Reader is a free, local EPUB and PDF reader for macOS. It runs entirely on your Mac and works offline, with no account, cloud sync or tracking. Books, highlights and notes are stored as plain files in ~/Reader.
+
+- Website: https://avirooppaul.github.io/homebrew-tap/reader/
+- Install: `brew install --cask avirooppaul/tap/reader-app`, then `readerctl setup`, then open https://reader.localhost
+- Price: free
+- Platform: macOS 13 Ventura or later, Apple Silicon and Intel. No Windows or Linux version yet.
+- Formats: EPUB 2 and 3, PDF, MOBI, AZW3, FB2, CBZ (no DRM-protected books)
+- Author: Aviroop Paul (https://github.com/AviroopPaul)
+
+## Features
+
+- Highlights in five colours, underlines, notes on any highlight, and bookmarks
+- Highlights exported automatically as Markdown (highlights.md per book)
+- Full-text search, nested table of contents, keyboard shortcuts
+- Light, Sepia, Dark and Black themes, six typefaces, paginated or continuous scroll
+- Smooth continuous-scroll PDF reading with real highlights, zoom and outline
+- Library with covers, reading progress and "continue reading"; drop files into ~/Reader/inbox to import
+- About 16 MB of memory while running; starts at login
+
+## How it works
+
+Reader is a small native Go binary that serves its interface to your browser at a trusted local HTTPS address (https://reader.localhost). It only accepts connections from your own Mac. Rendering uses foliate-js (EPUB and other e-book formats) and PDF.js (PDF).
+
+## Compared with alternatives
+
+- Apple Books imports books into its own library and can sync them through iCloud. Reader keeps a library of plain folders on your disk.
+- Calibre is a full library manager and converter. Reader is only a reader: lightweight and keyboard-driven.
