@@ -1,7 +1,7 @@
 # bleep: a little droid for your Mac. Source: AviroopPaul/bleep (private); downloads: AviroopPaul/bleep-releases.
 cask "bleep" do
-  version "0.3.0"
-  sha256 "365a04935fa9cb573b30d2f81905e60d38465ee9cf95f4ce511f03ecdec97238"
+  version "0.3.1"
+  sha256 "089e8f9ad5c79f41c01b37b91995855859cdd259d0cd788cbb0baa7726221679"
 
   url "https://github.com/AviroopPaul/bleep-releases/releases/download/v#{version}/bleep-mac.dmg"
   name "bleep"
@@ -13,6 +13,8 @@ cask "bleep" do
     strategy :github_latest
   end
 
+  # From 0.3.1, bleep updates itself (Settings > Updates).
+  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :sequoia
 
