@@ -1,7 +1,7 @@
 # bleep: a little droid for your Mac. Source: AviroopPaul/bleep (private); downloads: AviroopPaul/bleep-releases.
 cask "bleep" do
-  version "0.3.2"
-  sha256 "f3d97510847d3dd6755cbb4ee205add60e43869f063247d922acc3d1929e3432"
+  version "0.3.3"
+  sha256 "dd1185cba8d2db6cd88d9f9ece45cd95b79f6c37168612bf86059628b592139a"
 
   url "https://github.com/AviroopPaul/bleep-releases/releases/download/v#{version}/bleep-mac.dmg"
   name "bleep"
