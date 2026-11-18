@@ -1,11 +1,11 @@
-# bleep: a little droid for your Mac. Source: AviroopPaul/bleep (private); downloads: AviroopPaul/bleep-releases.
+# bleep: a little buddy for your Mac. Source: AviroopPaul/bleep (MIT); downloads: AviroopPaul/bleep-releases.
 cask "bleep" do
-  version "0.4.0"
-  sha256 "857e31a8a55229d941f3dfe7c5a234ad6d2c9eb6a940fc151644e42cf565ff3a"
+  version "0.5.0"
+  sha256 "34714b4721288b5a503164af27f3b8593058f22d0af6b1c64a3e591454532d30"
 
   url "https://github.com/AviroopPaul/bleep-releases/releases/download/v#{version}/bleep-mac.dmg"
   name "bleep"
-  desc "Little droid that watches your coding agents, mail and calendar"
+  desc "Little buddy that watches your coding agents, mail and calendar"
   homepage "https://bleep-omega.vercel.app/"
 
   livecheck do
