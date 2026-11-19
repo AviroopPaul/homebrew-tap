@@ -1,9 +1,9 @@
 # bleep: a little buddy for your Mac. Source: AviroopPaul/bleep (MIT); downloads: AviroopPaul/bleep-releases.
 cask "bleep" do
-  version "0.5.0"
-  sha256 "34714b4721288b5a503164af27f3b8593058f22d0af6b1c64a3e591454532d30"
+  version "0.5.1"
+  sha256 "73108c397f6c2a694cd221637ede182be6ab1ae16a5d73404c0e774e6ca388ab"
 
-  url "https://github.com/AviroopPaul/bleep-releases/releases/download/v#{version}/bleep-mac.dmg"
+  url "https://github.com/AviroopPaul/bleep/releases/download/v#{version}/bleep-mac.dmg"
   name "bleep"
   desc "Little buddy that watches your coding agents, mail and calendar"
   homepage "https://bleep-omega.vercel.app/"
